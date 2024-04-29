@@ -1,0 +1,60 @@
+#wrapper{
+display: grid;
+ grid-template-columns: 1fr 0fr 1fr;
+grid-template-areas:"header header header"
+    "image image image"
+        "main sidebar sidebar"
+    "footer footer footer";
+}
+div{
+    border:1px solid coral;
+    
+}
+
+
+#header{
+  grid-area: header; 
+}
+#image{
+    grid-area: image
+}
+#main{
+    grid-area: main;
+}
+#sidebar{
+    grid-area: sidebar;
+}
+}
+#footer{
+ grid-area: footer;
+   }
+
+h1{ text-align: center}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+h2{text-align: center}
+
+
+body {background-color:burlywood;}
+
+#image{background-image:url(patten%20ooo%20laa%20laa.png)}
+
+#main{word-wrap: 1000px}
+
+#main{padding-bottom: 75px}
+#footer{padding-top:210px}
+h2{background-color: darksalmon}
+h3{background-color: darksalmon}
+
+sexrect%20sxroll.png
+h1{font-size: 50px}\
+#header{
+    background-image:url(sexrect%20sxroll.png)}
+}
+h3{text-align: center}
+img{border: 3px solid red}
